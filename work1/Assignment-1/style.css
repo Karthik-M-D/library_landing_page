@@ -1,0 +1,271 @@
+:root {
+    --violet: #9D59D9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+}
+
+.head-img {
+    padding-left: 1rem;
+}
+
+.header {
+    background-color: #F8F4F1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    padding-left: 5rem;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links ul li {
+    list-style-type: none;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: var(--violet);
+}
+
+.links ul li a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    display: flex;
+}
+
+.login button {
+    margin: 1rem;
+}
+
+.help button {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.help button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 7px;
+    height: 7px;
+    background-color: #FF5857;
+    border-radius: 50%;
+}
+
+.log button {
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--violet);
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    margin-left: 3rem;
+}
+
+.main-content h2 {
+    font-size: 3.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.oo {
+    display: inline-block;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--violet);
+    padding: 5px;
+}
+
+.main-content h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-content p {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: 700;
+    background-color: var(--violet);
+    color: black;
+}
+
+.main-img img {
+    height: 600px;
+}
+
+
+/* features */
+.features {
+    height: 70vh;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features h3 {
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.type-contain {
+    width: 20%;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.type-contain img {
+    height: 130px;
+    width: 130px;
+    position: relative;
+    left: 60px;
+    padding-bottom: 1rem;
+}
+
+.book-features {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.type-contain h4 {
+    font-size: 1.2rem;
+    padding-bottom: .5rem;
+}
+
+.type-contain p {
+    font-size: 1.1rem;
+}
+
+.features button {
+    padding: 15px 20px;
+    margin-bottom: 5rem;
+    background-color: var(--violet);
+    border: none;
+    font-size: 1.1rem;
+}
+
+.first-box {
+    background-color: lightblue;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding-bottom: 5rem;
+}
+
+/* discount */
+.discount {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    word-wrap: break-word;
+}
+
+.discount-content {
+    width: 50%;
+}
+
+.discount-content .offer {
+    font-size: 1.5rem;
+}
+
+.discount-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.discount-content h4 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.discount-content button {
+    padding: 10px 20px;
+    background-color: var(--violet);
+    border: none;
+}
+
+
+/* book-sell */
+.book-sell {
+    padding-top: 5rem;
+    height: 70vh;
+}
+
+.book-sell h3 {
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.book-sell h3::after {
+    content: '';
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 1rem;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.book-card {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.book-card img {
+    width: 180px;
+    height: 180px;
+}
+
+.book-card h4 {
+    margin: 10px 0;
+}
+
+.book-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.sell-contain {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
